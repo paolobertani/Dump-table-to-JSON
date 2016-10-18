@@ -10,12 +10,12 @@
     //
 
 
-    // Show usage if agrument count does not match
+    // Show usage if argument count does not match
 
     if( $argc != 7 )
     {
         echo "\nUsage: \n\n";
-        echo "php dump_table_to_json.php HOST USER PASSWORD DATABASE TABLE PATH\n\n";
+        echo "\$ php dump_table_to_json.php HOST USER PASSWORD DATABASE TABLE PATH\n\n";
         echo "HOST:     mysql database host (ex. localhost)\n";
         echo "USER:     database user\n";
         echo "PASSWORD: password for user\n";
